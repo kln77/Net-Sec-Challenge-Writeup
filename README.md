@@ -2,6 +2,7 @@
 An updated writeup for the net sec challenge lab do try hack me, good studies
 
 # All Questions
+
 ![image](https://github.com/user-attachments/assets/3c366a6e-9c18-4c07-899c-346b1d6d24db)
 
 # WriteUp
@@ -11,11 +12,13 @@ Use nmap -p- -v -A machine_ip to see all the details needed for the questions 1-
 1. What is the highest port number being open less than 10,000?
 
 R = 8080
+
 ![image](https://github.com/user-attachments/assets/b0b1307f-3198-442e-916c-ce39a8ba20f0)
 
 2. There is an open port outside the common 1000 ports; it is above 10,000. What is it?
 
 R=10021
+
 ![image](https://github.com/user-attachments/assets/266226b8-a2e5-44d3-8fce-5e9de0d4910f)
 
 3. How many TCP ports are open?
@@ -25,16 +28,19 @@ R= 6, just count the ports.
 4. What is the flag hidden in the HTTP server header?
 
 R= THM{web_server_25352}
+
 ![image](https://github.com/user-attachments/assets/bb62dcb2-0498-47be-b111-a06df5f7f1d7)
 
 5. What is the flag hidden in the SSH server header?
 
 R= THM{946219583339}
+
 ![image](https://github.com/user-attachments/assets/4d1a15d4-59e1-4ce7-ba61-3a34bde95865)
 
 6. We have an FTP server listening on a nonstandard port. What is the version of the FTP server?
 
 R= vsftpd 3.0.5
+
 ![image](https://github.com/user-attachments/assets/edbb00d1-43ea-4037-8655-a6a81c01709d)
 
 7. We learned two usernames using social engineering: `eddie` and `quinn`. What is the flag hidden in one of these two account files and accessible via FTP?
